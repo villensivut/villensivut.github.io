@@ -1,0 +1,45 @@
+.purkki{
+	margin-left:3em;
+	margin-right:3em;
+}
+
+.purkki p{
+	font-size:1.3em;
+	margin-bottom:3em;
+	}
+.sidebar {
+	background-color:#BAC9A9;
+}
+.sidebar a{
+	color:#9E1C1C;
+}
+.sidebar a:hover{
+	color:#9E1C1C;
+}
+.nav-sidebar .active a{
+	background-color:#CF4647;
+}
+.nav-sidebar .active a:hover{
+	background-color:#FEEEA6;
+}
+.nav-sidebar .active a:focus{
+	background-color:#FEEEA6;
+}
+body {
+	background-color:#BAC9A9;
+}
+.main{
+	background-color:#F2EBDA;
+}
+.thumbnail{
+	background-color:#BAC9A9;
+}
+.navbar{
+	background-color:#BAC9A9;
+}
+.navbar-inverse .navbar-brand{
+	color:#9E1C1C;
+}
+.navbar-inverse .navbar-brand:hover{
+	color:#E4F6C7;
+}

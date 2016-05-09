@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/torvalds.css">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<title>LINUS</3</title>
+
+</head>
+
+<body>
+<div id="main">
+<div id="content">
+
+<center>
+
+		<a href="index.html">TAKAISIN</a><br>
+<h1><b>ubuntu tuhoaa mielen ja centos</b></h1>
+<img src="img/linux/pingu.png">
+<p><i>linus torvalds=saatanan sikiö</i>
+</p>
+<img src="img/linux/linushavittajatorvalds.jpg">
+<p><b>Linus Torvalds – bastard</b><br>
+<br>
+    <i>"I’m a bastard. I have absolutely no clue why people can ever think otherwise.<br>
+	Yet they do. People think I’m a nice guy, and the fact is that I’m a scheming,<br>
+	conniving bastard who doesn’t care for any hurt feelings or lost hours of work,<br>
+	if it just results in what I consider to be a better system. And I’m not just saying that.<br>
+	I’m really not a very nice person. I can say “I don’t care” with a straight face, and really mean it."</i><br>
+<br>
+    
+	</p>
+	<img src="img/linux/torvaldsjapingu.jpg">
+	<p><b>I am your god</b><br>
+<br>
+    <i>My name is Linus Torvalds and I am your god.</i><br>
+	</p>
+	<img src="img/linux/pingupalaa.jpg">
+	<p><i>"I’m an egotistical bastard, and I name all my projects after myself. First Linux, now git."</i><br>
+		</p>
+	<img src="img/linux/pingudemoni.jpg">
+		<p>
+		<b>I’m always right</b><br>
+<br>
+    <i>I’m always right. This time I’m just even more right than usual.</i><br>
+	</p>
+	<img src="img/linux/youcannotrun.png">
+	<p><i>
+	"Some people have told me they don't think a fat penguin really embodies the grace of Linux,<br>
+	which just tells me they have never seen an angry penguin charging at them in excess of 100mph.<br>
+	They'd be a lot more careful about what they say if they had."</i><br></p>
+	<br>
+	<a href="pingu.html">TÄÄLLÄ ON SKRIPTI JOKA TOIMII : )</a>
+	<h1><b>install gentoo</b></h1>
+	</center>
+</div>
+
+
+
+<script type="text/javascript">
+
+var trailimage=["img/linux/tuxdemon.png", 250, 250] //image path, plus width and height
+var offsetfrommouse=[10,-20] //image x,y offsets from cursor position in pixels. Enter 0,0 for no offset
+var displayduration=0 //duration in seconds image should remain visible. 0 for always.
+
+if (document.getElementById || document.all)
+document.write('<div id="trailimageid" style="position:absolute;visibility:visible;left:0px;top:0px;width:1px;height:1px"><img src="'+trailimage[0]+'" border="0" width="'+trailimage[1]+'px" height="'+trailimage[2]+'px"></div>')
+
+function gettrailobj(){
+if (document.getElementById)
+return document.getElementById("trailimageid").style
+else if (document.all)
+return document.all.trailimagid.style
+}
+
+function truebody(){
+return (!window.opera && document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+}
+
+function hidetrail(){
+gettrailobj().visibility="hidden"
+document.onmousemove=""
+
+}
+
+function followmouse(e){
+var xcoord=offsetfrommouse[0]
+var ycoord=offsetfrommouse[1]
+if (typeof e != "undefined"){
+xcoord+=e.pageX
+ycoord+=e.pageY
+}
+else if (typeof window.event !="undefined"){
+xcoord+=truebody().scrollLeft+event.clientX
+ycoord+=truebody().scrollTop+event.clientY
+}
+var docwidth=document.all? truebody().scrollLeft+truebody().clientWidth : pageXOffset+window.innerWidth-15
+var docheight=document.all? Math.max(truebody().scrollHeight, truebody().clientHeight) : Math.max(document.body.offsetHeight, window.innerHeight)
+if (xcoord+trailimage[1]+3>docwidth || ycoord+trailimage[2]> docheight)
+gettrailobj().display="none"
+else 
+gettrailobj().display=""
+gettrailobj().left=xcoord+"px"
+gettrailobj().top=ycoord+"px"
+}
+
+document.onmousemove=followmouse
+
+if (displayduration>0)
+setTimeout("hidetrail()", displayduration*1000)
+
+</script>
+</div>
+</body>
+<!--VILLE WAS HERE(ALSO PEPE RULES)-->

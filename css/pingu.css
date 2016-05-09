@@ -1,0 +1,35 @@
+/*
+
+h1{
+background-color:#E5EAEC;
+}
+
+h2{
+background-color:#E5EAEC;
+}
+p{
+color:#9E1C1C;
+}
+*/
+.dragme {
+    width: 64px;
+    height: 64px;
+ /* border: 1px solid #666;
+    background: #acf; */
+    margin: 0.25em;
+    padding: 0.25em;
+    cursor: pointer;
+}
+.drophere {
+    padding: 0.25em;
+    width: 15ex;
+   height: 15ex;
+  /*   border: 1px solid #666; 
+    background: #eee;*/
+    margin: 0 0 0 15ex;
+}
+/*
+.dragover {
+    background: #8f8;
+}
+*/
